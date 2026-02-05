@@ -90,7 +90,7 @@ a {
 
 /* Portfolio styles */
 .content h1 {
-  color: black;
+  color: #6c3abb;
 }
 
 #portfolio {
@@ -99,17 +99,17 @@ a {
 }
 
 #portfolio li {
-  background: #fff;
+  background: rgb(231, 212, 255);
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-  background: #eee;
+  background: rgb(220, 191, 255);
 }
 
 #portfolio a {
   text-decoration: none;
-  color: #454545;
+  color: #6c3abb;
 }
