@@ -47,14 +47,14 @@ $(function () {
     createCollectable("database", 780, 100, 0, 0)
     createCollectable("database", 280, 250, 0, 0)
     createCollectable("database", 1280, 280, 0, 0)
+    createCollectable("database", 1000, 650, 0, 1, 1000, 1200, 2)
 
     
     // TODO 4 - Create Cannons
 
     createCannon("left", 420, 1500)
     createCannon("right", 250, 1750)
-    createCannon("top", 500, 750)
-   createCannon("top", 1000, 750)
+    createCannon("top", 600, 1000, 20, 20, 600, 1200, 2)
     
     
     //////////////////////////////////
