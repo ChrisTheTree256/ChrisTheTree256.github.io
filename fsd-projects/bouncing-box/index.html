@@ -21,6 +21,7 @@
 
       .board {
         height: 100vh;
+        background-color: rgb(193, 156, 243);
       }
     </style>
     <!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
@@ -75,7 +76,6 @@
 
 
 
-
         /**
          * This Function will be called 20 times/second.
          * Each time it is called, it should move the Box to a new location.
@@ -84,7 +84,6 @@
         function update() {
           moveBoxTo(positionx);
           positionx = positionx + speed;
-          points += 1;
           if(positionx > boardWidth){
             speed = speed*-1;
           }
@@ -107,7 +106,8 @@
         function handleBoxClick() {
           positionx=0;
           changeBoxText(points);
-          speed= 2* points/10 + 10;
+          speed= 2*points + 10;
+          points += 1;
 
         }
 
